@@ -1,0 +1,27 @@
+@import '../../../scss/utils/variables';
+@import '../../../scss/utils/mixins';
+
+.button {
+	@include reset-button;
+	@include text-style-t3();
+	background: $color-V0-2;
+	padding: rem(calc(((var(--subline-rem) + 2) * 2) - 1));
+	transition: border-color 0.3s $time-cubic-bezier;
+	border: 1px solid $color-V0-2;
+	border-radius: var(--border-radius);
+
+	&:hover {
+		border: 1px solid #616068;
+	}
+}
+
+.selected {
+	background: $color-G0;
+}
+
+.disabled {
+  pointer-events: none;
+  background: rgba(19, 17, 29, 0.98);
+	border: 1px solid rgba(19, 17, 29, 0.98);
+  color: #403E48;
+}
