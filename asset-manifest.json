@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/toggleBtn/static/css/main.00f8b43e.chunk.css",
+    "main.js": "/toggleBtn/static/js/main.25381c7d.chunk.js",
+    "main.js.map": "/toggleBtn/static/js/main.25381c7d.chunk.js.map",
+    "runtime-main.js": "/toggleBtn/static/js/runtime-main.e14e14a2.js",
+    "runtime-main.js.map": "/toggleBtn/static/js/runtime-main.e14e14a2.js.map",
+    "static/js/2.58567327.chunk.js": "/toggleBtn/static/js/2.58567327.chunk.js",
+    "static/js/2.58567327.chunk.js.map": "/toggleBtn/static/js/2.58567327.chunk.js.map",
+    "index.html": "/toggleBtn/index.html",
+    "static/css/main.00f8b43e.chunk.css.map": "/toggleBtn/static/css/main.00f8b43e.chunk.css.map",
+    "static/js/2.58567327.chunk.js.LICENSE.txt": "/toggleBtn/static/js/2.58567327.chunk.js.LICENSE.txt",
+    "static/media/Group-active.738e5dca.svg": "/toggleBtn/static/media/Group-active.738e5dca.svg",
+    "static/media/Group.0f4c1824.svg": "/toggleBtn/static/media/Group.0f4c1824.svg",
+    "static/media/Vector.8f593fba.svg": "/toggleBtn/static/media/Vector.8f593fba.svg",
+    "static/media/inventory-active.00ef0aec.svg": "/toggleBtn/static/media/inventory-active.00ef0aec.svg",
+    "static/media/inventory.b4a6a252.svg": "/toggleBtn/static/media/inventory.b4a6a252.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e14e14a2.js",
+    "static/js/2.58567327.chunk.js",
+    "static/css/main.00f8b43e.chunk.css",
+    "static/js/main.25381c7d.chunk.js"
+  ]
+}
