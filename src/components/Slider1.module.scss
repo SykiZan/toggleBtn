@@ -1,0 +1,99 @@
+@import "../scss/utils/variables";
+
+@import "../scss/utils/global";
+
+.slider1 {
+  width: rem(280);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.options-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.options {
+  display: flex;
+  gap: rem(4);
+}
+.icon1 {
+  width: rem(24);
+  height: rem(24);
+}
+.icon2 {
+  width: rem(42.5);
+  height: rem(30);
+}
+.icon-wrapper {
+  height: rem(30);
+}
+.option-wrapper {
+  width: rem(122);
+  height: rem(71);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.option-wrapper__2 {
+  height: rem(45);
+}
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    cursor: pointer;
+    display: block;
+  }
+}
+.option-description {
+  font-size: var(--font-size-2);
+  color: var(--color-D6);
+}
+.slider-option {
+  font-size: var(--font-size0);
+  color: var(--color-D6);
+}
+.slider-option__active {
+  font-weight: bold;
+  color: var(--color-A1-a);
+}
+.description-active {
+  font-weight: bold;
+  color: var(--color-A1-a);
+}
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+.indicator {
+  width: rem(122);
+  height: rem(0.7);
+  background-color: var(--color-D7);
+}
+.indicator-colorful {
+  width: rem(140);
+  height: rem(0.7);
+  background-color: var(--color-D7);
+  margin-bottom: rem(18);
+}
+.thick {
+  height: rem(2);
+}
+.thick-colorful {
+  background: var(--color-G0);
+  height: rem(2);
+}
+.text-header {
+  font-weight: bold;
+  display: block;
+}
+.slider1-text {
+  width: rem(265);
+  text-align: left;
+  font-size: var(--font-size-2);
+  font-weight: 500;
+}

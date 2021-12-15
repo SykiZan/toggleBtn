@@ -1,0 +1,35 @@
+@import "../scss/utils/variables";
+
+@import "../scss/utils/global";
+
+.wrapper {
+  display: flex;
+  gap: rem(120);
+  align-items: center;
+  padding-top: rem(111);
+  padding-left: rem(60);
+  align-self: flex-start;
+}
+.button {
+  width: rem(106);
+  height: rem(30);
+  padding: rem(8);
+
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  border: 1px solid var(--color-D2);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-D8);
+}
+.label {
+  display: block;
+  font-weight: bold;
+  font-size: var(--font-size0);
+  width: rem(40);
+}
+.active {
+  background-color: var(--color-B0);
+}

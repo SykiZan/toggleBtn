@@ -1,0 +1,27 @@
+@import "./scss/utils/variables";
+
+@import "./scss/utils/global";
+.App {
+  background-color: var(--color-A7-a); // close but not it
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.13
+  ); // this color better corresponds to figma
+
+  height: 100vh;
+  width: 100vw;
+  line-height: rem(15);
+  display: flex;
+  gap: rem(150);
+  align-items: center;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: rem(50);
+}
